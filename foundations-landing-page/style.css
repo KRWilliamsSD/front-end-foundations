@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #0a8ac5;
+  color: #eee;
+  padding: 8px 16px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.section1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+  background: #1F2937;
+  padding: 25px;
+ 
+}
+
+.card_s1_1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background: #1F2937;
+    text-align: left;
+    word-wrap: break-word; /* Ensure text wraps within the card */
+    overflow-wrap: break-word;
+}
+
+.card_s1_2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 5px;
+    gap: 16px;
+    background: #7f8185;
+}
+
+
+.section2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background: #eee;
+  }
+
+.card_s2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 5px;
+    gap: 16px;
+    background:  #eee;
+}
+.container {
+    height: 140px;
+    padding: 16px;
+    background:  #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+.item {
+    border-radius: 25px;
+    border: 8px solid #3586e4;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+}
+
+.item_text {
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+}
+
+
+.section3 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background: #e5e7eb;
+}
+
+.card_s3{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background: #1F2937;
+    text-align: left;
+    word-wrap: break-word; /* Ensure text wraps within the card */
+    overflow-wrap: break-word;
+}
+
+.section4 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background: #eee;
+}
+
+.main_text{
+    color: #eee;
+    font-size: 48px;
+    font-style: bold;
+}
+
+.left-links{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.right-links{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #1F2937;
+}
+
+.footer{
+    font-size: 18px;
+    display: table;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
